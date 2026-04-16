@@ -21,6 +21,9 @@ files/ready/*
 files/done/*
 !files/ready/.gitkeep
 !files/done/.gitkeep
+# 레포에 포함되는 샘플 포스트 (테스트용)
+!files/ready/sample-post/
+!files/ready/sample-post/**
 
 # === os / editor ===
 .DS_Store
