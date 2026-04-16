@@ -1,0 +1,36 @@
+# === secrets & env ===
+.env
+.env.*
+!.env.example
+
+# === node / build ===
+node_modules/
+dist/
+build/
+*.log
+logs/
+screenshots/
+
+# === runtime state (개인 데이터) ===
+upload_status.json
+upload_status_backup.json
+excluded_content.json
+
+# === 업로드 대상 파일 (개인 콘텐츠) ===
+files/ready/*
+files/done/*
+!files/ready/.gitkeep
+!files/done/.gitkeep
+
+# === os / editor ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === playwright ===
+test-results/
+playwright-report/
+playwright/.cache/

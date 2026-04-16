@@ -1,0 +1,29 @@
+{
+  "name": "naver-blog-uploader",
+  "version": "0.1.0",
+  "description": "마크다운 파일을 네이버 블로그에 자동 업로드하는 Playwright 기반 CLI 도구",
+  "main": "agent-blog-upload.js",
+  "type": "module",
+  "scripts": {
+    "start": "node agent-blog-upload.js",
+    "postinstall": "playwright install chromium",
+    "install-playwright": "playwright install chromium"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "playwright": "^1.40.0"
+  },
+  "keywords": [
+    "naver",
+    "blog",
+    "automation",
+    "upload",
+    "playwright",
+    "markdown"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
